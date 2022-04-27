@@ -26,9 +26,9 @@ class PassCheckScreen(Screen):
             c.execute("SELECT * FROM services")
             found = False
             for key, value in c.fetchall():
-                if key == self.ids.service_field.text:
-                    self.ids.password_field.text = value
+                if key == self.ids.service_field.text.lower():
                     self.ids.password_field.password = True
+                    self.ids.password_field.text = value
                     self.ids.info_service.text = ""
                     found = True
             if not found:

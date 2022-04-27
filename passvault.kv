@@ -5,7 +5,6 @@
     MDTextField:
         id: loginpass_field
         hint_text: "Enter the Master Key"
-        color: (1, 1, 1, 1)
         size_hint: (0.6, 0.1)
         pos_hint: {"center_x": 0.5, "center_y": 0.43}
         font_size: 22
@@ -14,12 +13,8 @@
     MDIconButton:
         id: eye_icon
         icon: 'eye-off'
-        opacity: 1
         on_press: root.toggle_eye()
         pos_hint: {"center_x": 0.77, "center_y": 0.44}
-        canvas.after:
-            Color:
-                rgba: [0.6, 0.6, 0.6, 1]
     MDRaisedButton:
         text: 'LOGIN'
         pos_hint: {"center_x": 0.5, "center_y": 0.15}
@@ -58,17 +53,11 @@
         icon: 'content-copy'
         on_press: root.clipboard_copy()
         pos_hint: {"center_x": 0.77, "center_y": 0.14}
-        canvas.before:
-            Color:
-                rgba: [0.161, 0.439, 0.796, 0.5]
     MDIconButton:
         id: eye_pass
         icon: 'eye-off'
         on_press: root.toggle_eye()
         pos_hint: {"center_x": 0.69, "center_y": 0.14}
-        canvas.before:
-            Color:
-                rgba: [0.161, 0.439, 0.796, 0.5]
     MDLabel:
         id: info_service
         text: ""
