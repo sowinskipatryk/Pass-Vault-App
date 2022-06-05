@@ -1,1 +1,8 @@
-Another take on the password storing app. This time I use KivyMD to create more user-friendly GUI and I also use Python built SQLite3 database to store sensitive data.
+# Pass Vault App
+
+This is an app for storing passwords made using KivyMD to create more user-friendly GUI (compared to Kivy) and Python built SQLite3 database to store sensitive data.
+
+<br />
+<p align="center">
+  <img src="./showcase.gif" alt="showcase_animated" />
+</p>
