@@ -4,5 +4,5 @@ This is an app for storing passwords made using KivyMD to create more user-frien
 
 <br />
 <p align="center">
-  <img src="./showcase.gif" alt="showcase_animated" />
+  <img src="./showcase.gif" alt="showcase_animated" width=300 height=450/>
 </p>
